@@ -1,0 +1,95 @@
+{
+  "projectType": "saas",
+  "projectName": "PrepFlow",
+  "projectDescription": "PrepFlow is an all-in-one warehouse management system for prep centers, covering inbound receiving, inventory tracking, pick & pack, Amazon FBA/FBM fulfillment, and client billing.",
+  "theme": "almond",
+  "primaryColor": "#b54a93",
+  "lightColor": "#2c346f",
+  "darkColor": "#7f3c8b",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "onboarding-clients"
+            ]
+          },
+          {
+            "group": "Warehouse Flow",
+            "pages": [
+              "warehouse-flow",
+              "inbound",
+              "received",
+              "storing",
+              "warehouse-map"
+            ]
+          },
+          {
+            "group": "Fulfillment",
+            "pages": [
+              "inventory",
+              "pick-and-pack",
+              "shipments"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/fba",
+              "integrations/fbm",
+              "integrations/manual",
+              "integrations/two-step"
+            ]
+          },
+          {
+            "group": "Billing & Labels",
+            "pages": [
+              "billing",
+              "shipping-labels",
+              "bundles",
+              "optimized-generation"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Inbound order management with client dashboard visibility",
+    "Dock scanning and barcode-driven check-in workflow",
+    "Warehouse map with registered locations and barcode labels",
+    "Inventory tracking with real-time client visibility",
+    "Pick & pack sessions with location-sorted task routing",
+    "Amazon FBA integration with automated Seller Central sync",
+    "Amazon FBM integration with automatic shipment creation",
+    "Manual and Two-Step integrations for non-marketplace orders",
+    "Flexible billing system with per-unit, category, and storage pricing",
+    "Built-in shipping label purchasing with carrier rate comparison",
+    "Bundle system for multi-component product assembly",
+    "Optimized FBA shipment plan generation to reduce Amazon fees"
+  ],
+  "publicApiSurface": [
+    "Inbound order creation (client dashboard)",
+    "Dock scanning (Received → Scanning tab)",
+    "Mark Received / Check In workflow",
+    "Storing page (Scan & Store)",
+    "Inventory page (filter, search, create shipment)",
+    "Pick session creation and management",
+    "Shipment lifecycle (Requested → Working → Shipped)",
+    "Outbound scanning (Outbound → Scanning tab)",
+    "FBA workflow (Validate → Box → Ship → Confirm)",
+    "FBM automatic shipment sync",
+    "Manual shipment label upload / purchase",
+    "Two-Step same-day shipment workflow",
+    "Billing page (unit pricing, categories, boxes, services, storage)",
+    "Shipping Labels page (balance, upcharge, label purchase)",
+    "Warehouse Map setup and migration tool",
+    "Bundle inbound order creation and assembly",
+    "Optimized Plan Generator for FBA"
+  ]
+}

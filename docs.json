@@ -1,0 +1,127 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "HexPrep",
+  "description": "Dashboard Guide",
+  "colors": {
+    "primary": "#d100ff",
+    "light": "#d100ff",
+    "dark": "#d100ff"
+  },
+  "favicon": {
+    "light": "https://media.discordapp.net/attachments/1335155112850489415/1435161041955979284/HexPrep_Logo_PNG.png?ex=69f8ec20&is=69f79aa0&hm=9cb324f19e4649b2eb49856e15233a51548004c1ec66ce96d09122dc4f809b06&=&format=webp&quality=lossless&width=1020&height=1020",
+    "dark": "https://media.discordapp.net/attachments/1335155112850489415/1435161041955979284/HexPrep_Logo_PNG.png?ex=69f8ec20&is=69f79aa0&hm=9cb324f19e4649b2eb49856e15233a51548004c1ec66ce96d09122dc4f809b06&=&format=webp&quality=lossless&width=1020&height=1020"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "contextual": {
+    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Home",
+        "pages": [
+          "home-page"
+        ]
+      },
+      {
+        "group": "Get Started",
+        "icon": "circle-user-round",
+        "pages": [
+          "introduction",
+          "sign-up",
+          "shipping-settings"
+        ]
+      },
+      {
+        "group": "Inbound",
+        "icon": "truck",
+        "pages": [
+          "inbound",
+          "bundles-and-multi-packs",
+          "fbm",
+          "shipping-names"
+        ]
+      },
+      {
+        "group": "Received",
+        "icon": "box",
+        "pages": [
+          "needs-attention"
+        ]
+      },
+      {
+        "group": "Inventory",
+        "icon": "boxes",
+        "pages": [
+          "units"
+        ]
+      },
+      {
+        "group": "Other Fulfillment Methods",
+        "icon": "activity",
+        "pages": [
+          "integrations/manual",
+          "integrations/two-step"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/HEXPREPLOGO.png",
+    "dark": "/images/HEXPREPLOGO.png",
+    "href": "https://hexprep.mintlify.app/introduction"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://hexprep.com/contact",
+        "label": "Get Started"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://prepflowlabs.com/prepcenter/onboard"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/sZvrPHFg5v"
+    }
+  },
+  "background": {
+    "decoration": "grid"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Open Sans"
+    },
+    "body": {
+      "family": "Open Sans"
+    }
+  },
+  "thumbnails": {
+    "background": "/images/HEXPREPLOGO.png"
+  },
+  "metadata": {
+    "timestamp": false
+  },
+  "interaction": {
+    "drilldown": false
+  },
+  "errors": {
+    "404": {
+      "redirect": true
+    }
+  },
+  "banner": {
+    "content": "f",
+    "dismissible": false
+  }
+}
