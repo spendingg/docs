@@ -83,12 +83,6 @@
         "href": "https://hexprep.com/contact",
         "label": "Get Started"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "https://prepflowlabs.com/prepcenter/onboard"
-    }
   },
   "footer": {
     "socials": {
