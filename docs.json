@@ -19,7 +19,13 @@
     "eyebrows": "breadcrumbs"
   },
   "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+    "options": [
+      "copy",
+      "view",
+      "assistant",
+      "mcp",
+      "add-mcp"
+    ]
   },
   "navigation": {
     "groups": [
@@ -77,15 +83,14 @@
     "dark": "/images/HEXPREPLOGO.png",
     "href": "https://hexprep.mintlify.app/introduction"
   },
-"navbar": {
+  "navbar": {
     "links": [
       {
         "href": "https://hexprep.com/contact",
         "label": "Get Started"
       }
-    ] 
-  },
     ]
+  },
   "footer": {
     "socials": {
       "discord": "https://discord.gg/sZvrPHFg5v"
