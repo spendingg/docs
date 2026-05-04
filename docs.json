@@ -20,7 +20,6 @@
   },
   "contextual": {
     "options": [
-      "copy",
       "view",
       "assistant",
       "mcp",
@@ -29,6 +28,12 @@
   },
   "navigation": {
     "groups": [
+      {
+        "group": "Home",
+        "pages": [
+          "home-page"
+        ]
+      },
       {
         "group": "Get Started",
         "icon": "circle-user-round",
@@ -114,9 +119,5 @@
     "404": {
       "redirect": true
     }
-  },
-  "banner": {
-    "content": "Join our Discord ",
-    "dismissible": false
   }
 }
