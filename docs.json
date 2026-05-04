@@ -29,12 +29,6 @@
   "navigation": {
     "groups": [
       {
-        "group": "Home",
-        "pages": [
-          "home-page"
-        ]
-      },
-      {
         "group": "Get Started",
         "icon": "circle-user-round",
         "pages": [
