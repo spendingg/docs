@@ -77,12 +77,14 @@
     "dark": "/images/HEXPREPLOGO.png",
     "href": "https://hexprep.mintlify.app/introduction"
   },
-  "navbar": {
+"navbar": {
     "links": [
       {
         "href": "https://hexprep.com/contact",
         "label": "Get Started"
-  }
+      }
+    ] 
+  },
     ]
   "footer": {
     "socials": {
