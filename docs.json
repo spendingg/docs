@@ -36,10 +36,7 @@
           "inbound",
           "bundles-and-multi-packs",
           "fbm",
-          "shipping-names",
-          "untitled-page",
-          "untitled-page",
-          "untitled-page"
+          "shipping-names"
         ]
       },
       {
@@ -53,12 +50,7 @@
         "group": "Inventory",
         "icon": "boxes",
         "pages": [
-          "units",
-          "untitled-page",
-          "untitled-page",
-          "untitled-page",
-          "untitled-page",
-          "receiving-hours"
+          "units"
         ]
       },
       {
