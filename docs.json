@@ -50,7 +50,8 @@
         "group": "Inventory",
         "icon": "boxes",
         "pages": [
-          "units"
+          "units",
+          "untitled-page"
         ]
       },
       {
