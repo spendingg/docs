@@ -34,6 +34,7 @@
         "icon": "truck",
         "pages": [
           "inbound",
+          "receiving-hours",
           "bundles-and-multi-packs",
           "fbm",
           "shipping-names",
