@@ -33,7 +33,10 @@
         "group": "Inbound",
         "icon": "truck",
         "pages": [
-          "inbound"
+          "inbound",
+          "bundles-and-multi-packs",
+          "fbm",
+          "shipping-names"
         ]
       },
       {
