@@ -47,10 +47,10 @@
         ]
       },
       {
-        "group": "Inventory",
+        "group": "Inventory & Requesting Outbound",
         "icon": "boxes",
         "pages": [
-          "units"
+          "Units"
         ]
       },
       {
